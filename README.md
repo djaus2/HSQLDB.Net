@@ -21,7 +21,7 @@ RazorSQL is a desktop application that provides users with the ability to query,
 You can get a full trial version of it that lasts 30 days beforeyou have to purchase it.
 
 <hr>
-_**Please note:**_ *Codemesh grants a free license to use the Codemesh JuggerNET libraries (netrt.dll and xmogrt.dll) for evaluation purposes only. Codemesh does not maintain this project and makes no warranties as to its suitability for any purpose. Usage of Codemesh’s JuggerNET libraries in a production application requires a license which can be acquired by contacting Codemesh via email at info@codemesh.com.*
+<u><b>Please note:</b></u> <i>Codemesh grants a free license to use the Codemesh JuggerNET libraries (netrt.dll and xmogrt.dll) for evaluation purposes only. Codemesh does not maintain this project and makes no warranties as to its suitability for any purpose. Usage of Codemesh’s JuggerNET libraries in a production application requires a license which can be acquired by contacting Codemesh via email at info@codemesh.com.</i>
 <hr>
 
 ## The Repository Solution
