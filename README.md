@@ -21,7 +21,11 @@ RazorSQL is a desktop application that provides users with the ability to query,
 You can get a full trial version of it that lasts 30 days beforeyou have to purchase it.
 
 ## The Repository Solution
-The provided app is a basic C# .NET Console app that opens an HSQLDB Databse, writes some records to it and then queries for them. First time it runs you need to uncomment one line that creates the table. Note that when you first connect to an HSQLDB, if the db doesn't exist, it is created. You need to downlaod and install [HSQLDB](http://www.hsqldb.org/) The app needs a path to the HSQLDB.jar  Note that if you are using an existing HSQDB with its own DBMS jar for it you add a reference to it. Nb: Just build and run the x64 solution.
+The provided app is a basic C# .NET Console app that opens an HSQLDB Databse, writes some records to it and then queries for them. First time it runs you need to uncomment one line that creates the table. 
+```
+                       //Update(conn, "CREATE TABLE sample_table ( id INTEGER IDENTITY, str_col VARCHAR(256), num_col INTEGER)");
+```
+Note that when you first connect to an HSQLDB, if the db doesn't exist, it is created. You need to downlaod and install [HSQLDB](http://www.hsqldb.org/) The app needs a path to the HSQLDB.jar  Note that if you are using an existing HSQDB with its own DBMS jar for it you add a reference to it. Nb: Just build and run the x64 solution.
 
 Note that some of the prebuilt code will probably be excluded from the GitHub repository so I will link to this on my blog:
 
