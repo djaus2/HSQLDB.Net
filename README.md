@@ -36,3 +36,6 @@ _Nb:_ Make sure you unblock the downloaded zip before extracting itrs contents
 
 Similarly, also downlaod and unzip **packages.zip** from the link as above.
 Place the packages folder in the Solution-Folder
+
+Similarly, also downlaod and unzip **packages.zip** from the link as above.
+Place the packages folder in the Solution-Folder
