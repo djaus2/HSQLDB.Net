@@ -16,7 +16,7 @@ The solution is only for Windows forms x64/x86 or .NET Console apps. It is parti
 No solution for Xamarin. No solution for .NET Core/.Net Standard.
 
 <hr>
-<b>Please note:</b> <i>Codemesh grants a free license to use the Codemesh JuggerNET libraries (netrt.dll and xmogrt.dll) for evaluation purposes only. Codemesh does not maintain this project and makes no warranties as to its suitability for any purpose. Usage of Codemesh’s JuggerNET libraries in a production application requires a license which can be acquired by contacting Codemesh via email at info@codemesh.com.</i>
+<b>Please note:</b> <i>Codemesh grants a free license to use the Codemesh JuggerNET libraries (netrt.dll and xmogrt.dll) for evaluation purposes only. Codemesh does not maintain this project and makes no warranties as to its suitability for any purpose. Usage of Codemesh’s JuggerNET libraries in a production application requires a license which can be acquired by contacting Codemesh via email at <a href="mailto:info@codemesh.com">info@codemesh.com</a>.  </i>
 <hr>
 
 ### Getting started
