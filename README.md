@@ -15,14 +15,16 @@ This is only a partial sosolution. The basis of this solution was provided by **
 The solution is only for Windows forms x64/x86 or .NET Console apps. It is partially a prebuilt solution.
 No solution for Xamarin. No solution for .NET Core/.Net Standard.
 
+<hr>
+<b>Please note:</b> <i>Codemesh grants a free license to use the Codemesh JuggerNET libraries (netrt.dll and xmogrt.dll) for evaluation purposes only. Codemesh does not maintain this project and makes no warranties as to its suitability for any purpose. Usage of Codemesh’s JuggerNET libraries in a production application requires a license which can be acquired by contacting Codemesh via email at info@codemesh.com.</i>
+<hr>
+
 ### Getting started
 Firstly you wil need a UI for creating HSQLDBs. I use [RazorSQL](https://www.razorsql.com/index.html):
 RazorSQL is a desktop application that provides users with the ability to query, edit, browse, and manage databases. To download RazorSQL, click the "Download" link next to the text below that best describes your computer. Please see the links below for installation and uninstallation procedures for the various operating systems supported by RazorSQL
 You can get a full trial version of it that lasts 30 days beforeyou have to purchase it.
 
-<hr>
-<u><b>Please note:</b></u> <i>Codemesh grants a free license to use the Codemesh JuggerNET libraries (netrt.dll and xmogrt.dll) for evaluation purposes only. Codemesh does not maintain this project and makes no warranties as to its suitability for any purpose. Usage of Codemesh’s JuggerNET libraries in a production application requires a license which can be acquired by contacting Codemesh via email at info@codemesh.com.</i>
-<hr>
+
 
 ## The Repository Solution
 The provided app is a basic C# .NET Console app that opens an HSQLDB Databse, writes some records to it and then queries for them. First time it runs you need to uncomment one line that creates the table, in Program.cs: 
