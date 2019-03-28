@@ -48,5 +48,5 @@ One last thing. Need to have Java installed. Modify the line in Program.cs:
 ```
 loader.JvmPath = @"C:\Program Files\Java\jdk1.8.0_161\jre\bin\server\jvm.dll";
 ```
-to point your jvm.dll (Make sure its x64) I coul dcode this a bit better.
+to point your jvm.dll (Make sure its x64) I could code this a bit better.
 
