@@ -25,4 +25,4 @@ The provided app is a basic C# .NET Console app that opens an existing HSQLDB, w
 
 [generated.zip](https://davidjones.sportronics.com.au)
 Download and unzip the folder.
-Copy its contents to <Solution folder>/generated
+Copy its contents to the Solution-folder/generated
