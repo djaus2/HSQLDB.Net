@@ -21,7 +21,7 @@ RazorSQL is a desktop application that provides users with the ability to query,
 You can get a full trial version of it that lasts 30 days beforeyou have to purchase it.
 
 ## The Repository Solution
-The provided app is a basic C# .NET Console app that opens an HSQLDB Databse, writes some records to it and then queries for them. First time it runs you need to uncomment one line that creates the table. 
+The provided app is a basic C# .NET Console app that opens an HSQLDB Databse, writes some records to it and then queries for them. First time it runs you need to uncomment one line that creates the table, in Program.cs: 
 ```
                        //Update(conn, "CREATE TABLE sample_table ( id INTEGER IDENTITY, str_col VARCHAR(256), num_col INTEGER)");
 ```
