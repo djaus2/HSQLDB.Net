@@ -37,5 +37,5 @@ _Nb:_ Make sure you unblock the downloaded zip before extracting itrs contents
 Similarly, also downlaod and unzip **packages.zip** from the link as above.
 Place the packages folder in the Solution-Folder
 
-You may need to tweak the jdbc DLL project to find dumpbin on your system in the post build events.
-You might just commebnt these checvks out if you wish.
+You may need to tweak the console app project to find dumpbin on your system in the post build events.
+You might just commebnt these checks out if you wish.
