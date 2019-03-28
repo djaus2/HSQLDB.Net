@@ -28,6 +28,10 @@ Note that some of the prebuilt code will probably be excluded from the GitHub re
 Downaload **generated.zip** from https://davidjones.sportronics.com.au/Other
 Download and unzip the folder.
 Copy its dotnet folder into the Solution-folder/generated folder. 
+
+Also you may need to tweak the jdbcr10-x64 project post build to find dumpbin on your system.
+You can canel those check to simplify things.
+
 _Nb:_ Make sure you unblock the downloaded zip before extracting itrs contents
 
 Similarly, also downlaod and unzip **packages.zip** from the link as above.
