@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{593E1256-36D4-C821-CDCF-A0BBD4B676CB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace></RootNamespace>
+    <AssemblyName>jdbcr10</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>28;1607</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>28;1607</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>true</CodeAnalysisFailOnMissingRules>
+    <NoWarn>28;1607</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>none</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>true</CodeAnalysisFailOnMissingRules>
+    <NoWarn>28;1607</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>true</CodeAnalysisFailOnMissingRules>
+    <NoWarn>28;1607</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>none</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>true</CodeAnalysisFailOnMissingRules>
+    <NoWarn>28;1607</NoWarn>
+  </PropertyGroup>
+  <ItemGroup Condition="'$(Platform)' == 'x86'">
+    <Reference Include="netrt">
+      <HintPath>D:\Development\junc++ion-4.7.416\dotnet\v3\bin\x86\netrt.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup Condition="'$(Platform)' == 'x64'">
+    <Reference Include="netrt">
+      <HintPath>D:\Development\junc++ion-4.7.416\dotnet\v3\bin\x64\netrt.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup Condition="'$(Platform)' == 'AnyCPU'">
+    <Reference Include="netrt">
+      <HintPath>D:\Development\junc++ion-4.7.416\dotnet\v3\bin\netrt.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddedSources\*.cs" />
+    <Compile Include="InputStream.cs" />
+    <Compile Include="OutputStream.cs" />
+    <Compile Include="PrintStream.cs" />
+    <Compile Include="PrintWriter.cs" />
+    <Compile Include="Reader.cs" />
+    <Compile Include="Serializable.cs" />
+    <Compile Include="Writer.cs" />
+    <Compile Include="Annotation.cs" />
+    <Compile Include="AutoCloseable.cs" />
+    <Compile Include="Boolean.cs" />
+    <Compile Include="Byte.cs" />
+    <Compile Include="CharSequence.cs" />
+    <Compile Include="Character.cs" />
+    <Compile Include="Class.cs" />
+    <Compile Include="ClassLoader.cs" />
+    <Compile Include="ClassNotFoundException.cs" />
+    <Compile Include="Cloneable.cs" />
+    <Compile Include="Comparable.cs" />
+    <Compile Include="Double.cs" />
+    <Compile Include="Enum.cs" />
+    <Compile Include="Exception.cs" />
+    <Compile Include="Float.cs" />
+    <Compile Include="IllegalAccessException.cs" />
+    <Compile Include="InstantiationException.cs" />
+    <Compile Include="Integer.cs" />
+    <Compile Include="Iterable.cs" />
+    <Compile Include="Long.cs" />
+    <Compile Include="NoSuchFieldException.cs" />
+    <Compile Include="NoSuchMethodException.cs" />
+    <Compile Include="Number.cs" />
+    <Compile Include="NumberFormatException.cs" />
+    <Compile Include="Object.cs" />
+    <Compile Include="Package.cs" />
+    <Compile Include="AnnotatedElement.cs" />
+    <Compile Include="AnnotatedType.cs" />
+    <Compile Include="Constructor.cs" />
+    <Compile Include="Field.cs" />
+    <Compile Include="GenericDeclaration.cs" />
+    <Compile Include="Method.cs" />
+    <Compile Include="Type.cs" />
+    <Compile Include="TypeVariable.cs" />
+    <Compile Include="SecurityException.cs" />
+    <Compile Include="Short.cs" />
+    <Compile Include="String.cs" />
+    <Compile Include="Throwable.cs" />
+    <Compile Include="BigDecimal.cs" />
+    <Compile Include="URL.cs" />
+    <Compile Include="BasicPermission.cs" />
+    <Compile Include="Guard.cs" />
+    <Compile Include="Permission.cs" />
+    <Compile Include="ProtectionDomain.cs" />
+    <Compile Include="Array.cs" />
+    <Compile Include="BatchUpdateException.cs" />
+    <Compile Include="Blob.cs" />
+    <Compile Include="CallableStatement.cs" />
+    <Compile Include="ClientInfoStatus.cs" />
+    <Compile Include="Clob.cs" />
+    <Compile Include="Connection.cs" />
+    <Compile Include="DataTruncation.cs" />
+    <Compile Include="DatabaseMetaData.cs" />
+    <Compile Include="Date.cs" />
+    <Compile Include="Driver.cs" />
+    <Compile Include="DriverAction.cs" />
+    <Compile Include="DriverManager.cs" />
+    <Compile Include="DriverPropertyInfo.cs" />
+    <Compile Include="JDBCType.cs" />
+    <Compile Include="NClob.cs" />
+    <Compile Include="ParameterMetaData.cs" />
+    <Compile Include="PreparedStatement.cs" />
+    <Compile Include="PseudoColumnUsage.cs" />
+    <Compile Include="Ref.cs" />
+    <Compile Include="ResultSet.cs" />
+    <Compile Include="ResultSetMetaData.cs" />
+    <Compile Include="RowId.cs" />
+    <Compile Include="RowIdLifetime.cs" />
+    <Compile Include="SQLClientInfoException.cs" />
+    <Compile Include="SQLData.cs" />
+    <Compile Include="SQLDataException.cs" />
+    <Compile Include="SQLException.cs" />
+    <Compile Include="SQLFeatureNotSupportedException.cs" />
+    <Compile Include="SQLInput.cs" />
+    <Compile Include="SQLIntegrityConstraintViolationException.cs" />
+    <Compile Include="SQLInvalidAuthorizationSpecException.cs" />
+    <Compile Include="SQLNonTransientConnectionException.cs" />
+    <Compile Include="SQLNonTransientException.cs" />
+    <Compile Include="SQLOutput.cs" />
+    <Compile Include="SQLPermission.cs" />
+    <Compile Include="SQLRecoverableException.cs" />
+    <Compile Include="SQLSyntaxErrorException.cs" />
+    <Compile Include="SQLTimeoutException.cs" />
+    <Compile Include="SQLTransactionRollbackException.cs" />
+    <Compile Include="SQLTransientConnectionException.cs" />
+    <Compile Include="SQLTransientException.cs" />
+    <Compile Include="SQLType.cs" />
+    <Compile Include="SQLWarning.cs" />
+    <Compile Include="SQLXML.cs" />
+    <Compile Include="Savepoint.cs" />
+    <Compile Include="Statement.cs" />
+    <Compile Include="Struct.cs" />
+    <Compile Include="Time.cs" />
+    <Compile Include="Timestamp.cs" />
+    <Compile Include="Types.cs" />
+    <Compile Include="Wrapper.cs" />
+    <Compile Include="Instant.cs" />
+    <Compile Include="LocalDate.cs" />
+    <Compile Include="LocalDateTime.cs" />
+    <Compile Include="LocalTime.cs" />
+    <Compile Include="AbstractCollection.cs" />
+    <Compile Include="AbstractList.cs" />
+    <Compile Include="Calendar.cs" />
+    <Compile Include="Collection.cs" />
+    <Compile Include="Comparator.cs" />
+    <Compile Include="Executor.cs" />
+    <Compile Include="Date1.cs" />
+    <Compile Include="Enumeration.cs" />
+    <Compile Include="EventListener.cs" />
+    <Compile Include="EventObject.cs" />
+    <Compile Include="Consumer.cs" />
+    <Compile Include="Predicate.cs" />
+    <Compile Include="UnaryOperator.cs" />
+    <Compile Include="Hashtable.cs" />
+    <Compile Include="Iterator.cs" />
+    <Compile Include="List.cs" />
+    <Compile Include="ListIterator.cs" />
+    <Compile Include="Logger.cs" />
+    <Compile Include="Map.cs" />
+    <Compile Include="Properties.cs" />
+    <Compile Include="RandomAccess.cs" />
+    <Compile Include="Spliterator.cs" />
+    <Compile Include="Vector.cs" />
+    <Compile Include="Binding.cs" />
+    <Compile Include="Context.cs" />
+    <Compile Include="InitialContext.cs" />
+    <Compile Include="Name.cs" />
+    <Compile Include="NameClassPair.cs" />
+    <Compile Include="NameParser.cs" />
+    <Compile Include="NamingEnumeration.cs" />
+    <Compile Include="NamingException.cs" />
+    <Compile Include="CommonDataSource.cs" />
+    <Compile Include="ConnectionEvent.cs" />
+    <Compile Include="ConnectionEventListener.cs" />
+    <Compile Include="ConnectionPoolDataSource.cs" />
+    <Compile Include="DataSource.cs" />
+    <Compile Include="PooledConnection.cs" />
+    <Compile Include="RowSet.cs" />
+    <Compile Include="RowSetEvent.cs" />
+    <Compile Include="RowSetInternal.cs" />
+    <Compile Include="RowSetListener.cs" />
+    <Compile Include="RowSetMetaData.cs" />
+    <Compile Include="RowSetReader.cs" />
+    <Compile Include="RowSetWriter.cs" />
+    <Compile Include="StatementEvent.cs" />
+    <Compile Include="StatementEventListener.cs" />
+    <Compile Include="XAConnection.cs" />
+    <Compile Include="XADataSource.cs" />
+    <Compile Include="XAResource.cs" />
+    <Compile Include="Result.cs" />
+    <Compile Include="Source.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup Condition="'$(Platform)' == 'x86'">
+    <PostBuildEvent>xcopy /D &quot;D:\Development\junc++ion-4.7.416\cpp\v3\lib\windows\x86\msvc-16.00\release\xmogrt.dll&quot; &quot;$(TargetDir)&quot;</PostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Platform)' == 'x64'">
+    <PostBuildEvent>xcopy /D &quot;D:\Development\junc++ion-4.7.416\cpp\v3\lib\windows\amd64\msvc-16.00\release\xmogrt.dll&quot; &quot;$(TargetDir)&quot;</PostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Platform)' == 'AnyCPU'">
+    <PostBuildEvent>xcopy /D &quot;D:\Development\junc++ion-4.7.416\cpp\v3\lib\windows\x86\msvc-16.00\release\xmogrt.dll&quot; &quot;$(TargetDir)&quot;</PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
