@@ -25,7 +25,7 @@ The provided app is a basic C# .NET Console app that opens an HSQLDB Databse, wr
 
 Note that some of the prebuilt code will probably be excluded from the GitHub repository so I will link to this on my blog:
 
-Downaload **generated.zip** from (https://davidjones.sportronics.com.au/Other)
+Downaload **generated.zip** from https://davidjones.sportronics.com.au/Other
 Download and unzip the folder.
 Copy its dotnet folder into the Solution-folder/generated folder. 
 _Nb:_ Make sure you unblock the downloaded zip before extracting itrs contents
