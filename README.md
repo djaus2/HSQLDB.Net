@@ -28,7 +28,7 @@ Note that some of the prebuilt code will probably be excluded from the GitHub re
 Downaload **generated.zip** from (https://davidjones.sportronics.com.au/Other)
 Download and unzip the folder.
 Copy its dotnet folder into the Solution-folder/generated folder. 
-_Nb:_ Make sure you unblock the downloaded zip before extracted itrs contents
+_Nb:_ Make sure you unblock the downloaded zip before extracting itrs contents
 
-Also downlaod and unzip **packages.zip** from the link as above.
+Similarly, also downlaod and unzip **packages.zip** from the link as above.
 Place the packages folder in the Solution-Folder
