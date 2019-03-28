@@ -44,7 +44,7 @@ Place the packages folder in the Solution-Folder
 You may need to tweak the console app project to find dumpbin on your system in the post build events.
 You might just commebnt these checks out if you wish.
 
-One last thing. Need to Java installed. Modify the line in Program.cs:
+One last thing. Need to have Java installed. Modify the line in Program.cs:
 ```
 loader.JvmPath = @"C:\Program Files\Java\jdk1.8.0_161\jre\bin\server\jvm.dll";
 ```
