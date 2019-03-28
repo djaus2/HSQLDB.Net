@@ -20,5 +20,9 @@ Firstly you wil need a UI for creating HSQLDBs. I use [RazorSQL](https://www.raz
 RazorSQL is a desktop application that provides users with the ability to query, edit, browse, and manage databases. To download RazorSQL, click the "Download" link next to the text below that best describes your computer. Please see the links below for installation and uninstallation procedures for the various operating systems supported by RazorSQL
 You can get a full trial version of it that lasts 30 days beforeyou have to purchase it.
 
-## The Repoosotory Solution
-The provided app is a basic C# .NET Console app that opens an existing HSQLDB, writes some records to it and then queries for them. First time it runs you need to uncomment one line that creates the table. Notethat when you first connect to an HSQLDB, if the db doesn't exist, it is created. You need to downlaod and install [HSQLDB](http://www.hsqldb.org/) The app needs a path to the HSQLDB.jar  Note that if you are using an existing HSQDB with a DBMS jar for it you add a reference to it. Note that some of the prebuilt code will probably be excluded from teh GitHub repository so I will link to this on my blog.
+## The Repository Solution
+The provided app is a basic C# .NET Console app that opens an existing HSQLDB, writes some records to it and then queries for them. First time it runs you need to uncomment one line that creates the table. Notethat when you first connect to an HSQLDB, if the db doesn't exist, it is created. You need to downlaod and install [HSQLDB](http://www.hsqldb.org/) The app needs a path to the HSQLDB.jar  Note that if you are using an existing HSQDB with a DBMS jar for it you add a reference to it. Note that some of the prebuilt code will probably be excluded from teh GitHub repository so I will link to this on my blog:
+
+[generated.zip](https://davidjones.sportronics.com.au)
+Download and unzip the folder.
+Copy its contents to <Solution folder>/generated
